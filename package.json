@@ -1,0 +1,29 @@
+{
+  "name": "intro-to-npm-readme",
+  "version": "1.0.0",
+  "description": "\"An introduction to npm and package.json\",",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "node_modules/browser-sync/bin/browser-sync.js start --config node_modules/learn-browser/bs-config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/apcrypto/npm-lab-london-web-121018.git"
+  },
+  "author": "andy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/apcrypto/npm-lab-london-web-121018/issues"
+  },
+  "homepage": "https://github.com/apcrypto/npm-lab-london-web-121018#readme",
+  "keywords": [
+    "test"
+  ],
+  "dependencies": {
+    "learn-browser": "^0.1.24",
+    "moment": "^2.24.0"
+  }
+}
