@@ -1,0 +1,22 @@
+{
+  "name": "npm-lab-london-web-121018",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "node_modules/browser-sync/bin/browser-sync.js start --config node_modules/learn-browser/bs-config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/georgejeffery/npm-lab-london-web-121018.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/georgejeffery/npm-lab-london-web-121018/issues"
+  },
+  "homepage": "https://github.com/georgejeffery/npm-lab-london-web-121018#readme"
+}
